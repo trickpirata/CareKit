@@ -124,6 +124,23 @@
 		64E1BD4E2309FCF200DFFE52 /* OCKResponsiveLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E1BD4D2309FCF200DFFE52 /* OCKResponsiveLayout.swift */; };
 		64EEC2382318253B00B1012F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64EEC2362318253B00B1012F /* Localizable.strings */; };
 		64EEC23B231825DD00B1012F /* OCKLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEC23A231825DD00B1012F /* OCKLocalization.swift */; };
+		B0DD8CF32927097000FD7D74 /* DetailedContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CDF2927097000FD7D74 /* DetailedContactView.swift */; };
+		B0DD8CF42927097000FD7D74 /* GridTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE02927097000FD7D74 /* GridTaskView.swift */; };
+		B0DD8CF52927097000FD7D74 /* SimpleTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE12927097000FD7D74 /* SimpleTaskView.swift */; };
+		B0DD8CF62927097000FD7D74 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE22927097000FD7D74 /* CardView.swift */; };
+		B0DD8CF72927097000FD7D74 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE32927097000FD7D74 /* ListView.swift */; };
+		B0DD8CF82927097000FD7D74 /* NoHighlightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE42927097000FD7D74 /* NoHighlightStyle.swift */; };
+		B0DD8CF92927097000FD7D74 /* ChecklistTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE52927097000FD7D74 /* ChecklistTaskView.swift */; };
+		B0DD8CFA2927097000FD7D74 /* InstructionsTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE62927097000FD7D74 /* InstructionsTaskView.swift */; };
+		B0DD8CFB2927097000FD7D74 /* RectangularCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE72927097000FD7D74 /* RectangularCompletionView.swift */; };
+		B0DD8CFC2927097000FD7D74 /* ContentSizeCategory+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CE92927097000FD7D74 /* ContentSizeCategory+Extensions.swift */; };
+		B0DD8CFD2927097000FD7D74 /* CheckmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CEC2927097000FD7D74 /* CheckmarkButton.swift */; };
+		B0DD8CFE2927097000FD7D74 /* ChecklistItemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CED2927097000FD7D74 /* ChecklistItemButton.swift */; };
+		B0DD8CFF2927097000FD7D74 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CEE2927097000FD7D74 /* AnimatedButton.swift */; };
+		B0DD8D002927097000FD7D74 /* ContactButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CEF2927097000FD7D74 /* ContactButton.swift */; };
+		B0DD8D012927097000FD7D74 /* AddressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CF02927097000FD7D74 /* AddressButton.swift */; };
+		B0DD8D022927097000FD7D74 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CF12927097000FD7D74 /* HeaderView.swift */; };
+		B0DD8D032927097000FD7D74 /* SimpleContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8CF22927097000FD7D74 /* SimpleContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +256,23 @@
 		64E1BD4D2309FCF200DFFE52 /* OCKResponsiveLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCKResponsiveLayout.swift; sourceTree = "<group>"; };
 		64EEC2372318253B00B1012F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		64EEC23A231825DD00B1012F /* OCKLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCKLocalization.swift; sourceTree = "<group>"; };
+		B0DD8CDF2927097000FD7D74 /* DetailedContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedContactView.swift; sourceTree = "<group>"; };
+		B0DD8CE02927097000FD7D74 /* GridTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridTaskView.swift; sourceTree = "<group>"; };
+		B0DD8CE12927097000FD7D74 /* SimpleTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTaskView.swift; sourceTree = "<group>"; };
+		B0DD8CE22927097000FD7D74 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B0DD8CE32927097000FD7D74 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B0DD8CE42927097000FD7D74 /* NoHighlightStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoHighlightStyle.swift; sourceTree = "<group>"; };
+		B0DD8CE52927097000FD7D74 /* ChecklistTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistTaskView.swift; sourceTree = "<group>"; };
+		B0DD8CE62927097000FD7D74 /* InstructionsTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsTaskView.swift; sourceTree = "<group>"; };
+		B0DD8CE72927097000FD7D74 /* RectangularCompletionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangularCompletionView.swift; sourceTree = "<group>"; };
+		B0DD8CE92927097000FD7D74 /* ContentSizeCategory+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContentSizeCategory+Extensions.swift"; sourceTree = "<group>"; };
+		B0DD8CEC2927097000FD7D74 /* CheckmarkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckmarkButton.swift; sourceTree = "<group>"; };
+		B0DD8CED2927097000FD7D74 /* ChecklistItemButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItemButton.swift; sourceTree = "<group>"; };
+		B0DD8CEE2927097000FD7D74 /* AnimatedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		B0DD8CEF2927097000FD7D74 /* ContactButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactButton.swift; sourceTree = "<group>"; };
+		B0DD8CF02927097000FD7D74 /* AddressButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressButton.swift; sourceTree = "<group>"; };
+		B0DD8CF12927097000FD7D74 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B0DD8CF22927097000FD7D74 /* SimpleContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +318,7 @@
 				515888C62437AED100E65C73 /* Featured Content */,
 				51367939243BF69D0026997B /* Link */,
 				510466ED24A26B9900D0FD53 /* Style */,
+				B0DD8CDE2927097000FD7D74 /* SwiftUI */,
 				510466F024A278FC00D0FD53 /* Extensions */,
 			);
 			path = iOS;
@@ -623,6 +658,54 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
+		B0DD8CDE2927097000FD7D74 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD8CDF2927097000FD7D74 /* DetailedContactView.swift */,
+				B0DD8CE02927097000FD7D74 /* GridTaskView.swift */,
+				B0DD8CE12927097000FD7D74 /* SimpleTaskView.swift */,
+				B0DD8CE22927097000FD7D74 /* CardView.swift */,
+				B0DD8CE32927097000FD7D74 /* ListView.swift */,
+				B0DD8CE42927097000FD7D74 /* NoHighlightStyle.swift */,
+				B0DD8CE52927097000FD7D74 /* ChecklistTaskView.swift */,
+				B0DD8CE62927097000FD7D74 /* InstructionsTaskView.swift */,
+				B0DD8CE72927097000FD7D74 /* RectangularCompletionView.swift */,
+				B0DD8CE82927097000FD7D74 /* Extensions */,
+				B0DD8CEA2927097000FD7D74 /* Common */,
+				B0DD8CF12927097000FD7D74 /* HeaderView.swift */,
+				B0DD8CF22927097000FD7D74 /* SimpleContactView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		B0DD8CE82927097000FD7D74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD8CE92927097000FD7D74 /* ContentSizeCategory+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B0DD8CEA2927097000FD7D74 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD8CEB2927097000FD7D74 /* Controls */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B0DD8CEB2927097000FD7D74 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD8CEC2927097000FD7D74 /* CheckmarkButton.swift */,
+				B0DD8CED2927097000FD7D74 /* ChecklistItemButton.swift */,
+				B0DD8CEE2927097000FD7D74 /* AnimatedButton.swift */,
+				B0DD8CEF2927097000FD7D74 /* ContactButton.swift */,
+				B0DD8CF02927097000FD7D74 /* AddressButton.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -792,6 +875,7 @@
 				51F78FEE22D7C7C100058858 /* OCKCalendarDisplayable.swift in Sources */,
 				511BCB5C24365E2E00B4D643 /* OCKDetailedImageView.swift in Sources */,
 				518F9D8822961BF5009CAA48 /* OCKAddressButton.swift in Sources */,
+				B0DD8CF62927097000FD7D74 /* CardView.swift in Sources */,
 				64699E9922FC7B5000FF624F /* OCKLogButtonCell.swift in Sources */,
 				518F9D8A22961BF5009CAA48 /* OCKContactButton.swift in Sources */,
 				51B225A323EDDCFC00A2D11F /* NoHighlightStyle.swift in Sources */,
@@ -801,7 +885,9 @@
 				5105911F237651C8004EDC84 /* OCKAccessibleValue.swift in Sources */,
 				518F9D9A22961BF5009CAA48 /* OCKCartesianCoordinatesLayer.swift in Sources */,
 				518F9DBC22961BF6009CAA48 /* OCKCardable.swift in Sources */,
+				B0DD8CFC2927097000FD7D74 /* ContentSizeCategory+Extensions.swift in Sources */,
 				518F9DBB22961BF6009CAA48 /* OCKLabel.swift in Sources */,
+				B0DD8D032927097000FD7D74 /* SimpleContactView.swift in Sources */,
 				518F9DA122961BF6009CAA48 /* OCKCartesianChartView.swift in Sources */,
 				518F9DA022961BF6009CAA48 /* OCKDataSeries.swift in Sources */,
 				513FE9FD24803AE10016FCE6 /* LabeledValueTaskView.swift in Sources */,
@@ -818,6 +904,8 @@
 				518F9DA522961BF6009CAA48 /* OCKCartesianGraphView.swift in Sources */,
 				518F9D9F22961BF5009CAA48 /* OCKGraphAxisView.swift in Sources */,
 				64EEC23B231825DD00B1012F /* OCKLocalization.swift in Sources */,
+				B0DD8CFE2927097000FD7D74 /* ChecklistItemButton.swift in Sources */,
+				B0DD8CF82927097000FD7D74 /* NoHighlightStyle.swift in Sources */,
 				51FEF4C624325903003CE34C /* OCKFeaturedContentView.swift in Sources */,
 				51367950243BF7040026997B /* LinkView.swift in Sources */,
 				518F9D9622961BF5009CAA48 /* OCKLogItemButton.swift in Sources */,
@@ -831,14 +919,19 @@
 				51F12D39229C81E200CA265B /* OCKLabeledCheckmarkButton.swift in Sources */,
 				518F9DAE22961BF6009CAA48 /* OCKColorStyler.swift in Sources */,
 				510D862D23020D410073776E /* OCKStyler.swift in Sources */,
+				B0DD8CF92927097000FD7D74 /* ChecklistTaskView.swift in Sources */,
 				518F9D9D22961BF5009CAA48 /* OCKLineLayer.swift in Sources */,
+				B0DD8CF32927097000FD7D74 /* DetailedContactView.swift in Sources */,
 				5136794C243BF6EC0026997B /* SafariView.swift in Sources */,
 				51173F3C243FE007004CB150 /* CircularCompletionView.swift in Sources */,
 				516A02BA22F363AE00D55AD7 /* NSLayoutConstraint+Extensions.swift in Sources */,
 				51F75B942447DD0B00978C71 /* NumericProgressTaskView.swift in Sources */,
 				518F9D9322961BF5009CAA48 /* OCKButtonLogTaskView.swift in Sources */,
+				B0DD8CFF2927097000FD7D74 /* AnimatedButton.swift in Sources */,
 				518F9DB522961BF6009CAA48 /* OCKWeekCalendarView.swift in Sources */,
 				03089D7F231ED7AF0054EA23 /* Calendar+Extensions.swift in Sources */,
+				B0DD8D022927097000FD7D74 /* HeaderView.swift in Sources */,
+				B0DD8CFD2927097000FD7D74 /* CheckmarkButton.swift in Sources */,
 				51367952243BF7450026997B /* LinkLabel.swift in Sources */,
 				518F9D9822961BF5009CAA48 /* OCKGraphLegendView.swift in Sources */,
 				518F9DC022961BF6009CAA48 /* OCKStackView.swift in Sources */,
@@ -849,20 +942,27 @@
 				518F9D9122961BF5009CAA48 /* OCKLabeledButton.swift in Sources */,
 				518F9DB222961BF6009CAA48 /* OCKDimensionStyler.swift in Sources */,
 				51178E1523AAAB2F0068BAB1 /* OCKCompletionState.swift in Sources */,
+				B0DD8CFA2927097000FD7D74 /* InstructionsTaskView.swift in Sources */,
 				518F9D9022961BF5009CAA48 /* OCKInstructionsTaskView.swift in Sources */,
 				518F9DA622961BF6009CAA48 /* OCKGraphable.swift in Sources */,
+				B0DD8CFB2927097000FD7D74 /* RectangularCompletionView.swift in Sources */,
 				5136794B243BF6EC0026997B /* LinkItem.swift in Sources */,
+				B0DD8D002927097000FD7D74 /* ContactButton.swift in Sources */,
 				518F9DB022961BF6009CAA48 /* OCKAnimationStyler.swift in Sources */,
 				517309A524AA6D7E00A35C85 /* OCKStyler+Extension.swift in Sources */,
 				03181064236A158E006D4870 /* OCKCappedSizeLabel.swift in Sources */,
 				518F9DB422961BF6009CAA48 /* OCKHeaderView.swift in Sources */,
 				518F9D9222961BF5009CAA48 /* OCKSelfSizingCollectionView.swift in Sources */,
+				B0DD8CF52927097000FD7D74 /* SimpleTaskView.swift in Sources */,
 				51B225AD23EDDCFC00A2D11F /* SimpleTaskView.swift in Sources */,
+				B0DD8CF72927097000FD7D74 /* ListView.swift in Sources */,
+				B0DD8CF42927097000FD7D74 /* GridTaskView.swift in Sources */,
 				518F9D8E22961BF5009CAA48 /* OCKSimpleTaskView.swift in Sources */,
 				51637EA322F3A68400BAF65C /* OCKLogTaskView.swift in Sources */,
 				516A1C48244F766A00BBF2D3 /* OSValue.swift in Sources */,
 				5178FBDA22E253FC00794353 /* OCKChartDisplayable.swift in Sources */,
 				518F9D8F22961BF5009CAA48 /* OCKChecklistItemButton.swift in Sources */,
+				B0DD8D012927097000FD7D74 /* AddressButton.swift in Sources */,
 				518F9DB722961BF6009CAA48 /* OCKSeparatorView.swift in Sources */,
 				516A02BC22F363D900D55AD7 /* OCKView.swift in Sources */,
 				518F9DB122961BF6009CAA48 /* OCKAppearanceStyler.swift in Sources */,

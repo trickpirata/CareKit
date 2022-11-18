@@ -152,6 +152,17 @@
 		64EABE202321B1AF00CFBB9F /* locversion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64EABDE72321B1AF00CFBB9F /* locversion.plist */; };
 		70F79B5526434F4A00731C46 /* UIImage+Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F79B5426434F4A00731C46 /* UIImage+Asset.swift */; };
 		70F79B5626434F4A00731C46 /* UIImage+Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F79B5426434F4A00731C46 /* UIImage+Asset.swift */; };
+		B0DD8D112927098F00FD7D74 /* SimpleContactViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D052927098F00FD7D74 /* SimpleContactViewConfiguration.swift */; };
+		B0DD8D122927098F00FD7D74 /* DetailedContactViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D062927098F00FD7D74 /* DetailedContactViewConfiguration.swift */; };
+		B0DD8D132927098F00FD7D74 /* OCKTaskControllerProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D072927098F00FD7D74 /* OCKTaskControllerProtocol+Extension.swift */; };
+		B0DD8D142927098F00FD7D74 /* OCKContactControllerProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D082927098F00FD7D74 /* OCKContactControllerProtocol+Extension.swift */; };
+		B0DD8D152927098F00FD7D74 /* SimpleTaskViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D092927098F00FD7D74 /* SimpleTaskViewConfiguration.swift */; };
+		B0DD8D162927098F00FD7D74 /* DetailedContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D0A2927098F00FD7D74 /* DetailedContactView.swift */; };
+		B0DD8D172927098F00FD7D74 /* SimpleTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D0B2927098F00FD7D74 /* SimpleTaskView.swift */; };
+		B0DD8D182927098F00FD7D74 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D0D2927098F00FD7D74 /* ListView.swift */; };
+		B0DD8D192927098F00FD7D74 /* InstructionsTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D0E2927098F00FD7D74 /* InstructionsTaskView.swift */; };
+		B0DD8D1A2927098F00FD7D74 /* SimpleContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D0F2927098F00FD7D74 /* SimpleContactView.swift */; };
+		B0DD8D1B2927098F00FD7D74 /* InstructionsTaskViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD8D102927098F00FD7D74 /* InstructionsTaskViewConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -295,6 +306,17 @@
 		64EABDE82321B1AF00CFBB9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/locversion.plist; sourceTree = "<group>"; };
 		70F79B5426434F4A00731C46 /* UIImage+Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Asset.swift"; sourceTree = "<group>"; };
 		8605A5BA1C4F04EC00DD65FF /* CareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DD8D052927098F00FD7D74 /* SimpleContactViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleContactViewConfiguration.swift; sourceTree = "<group>"; };
+		B0DD8D062927098F00FD7D74 /* DetailedContactViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedContactViewConfiguration.swift; sourceTree = "<group>"; };
+		B0DD8D072927098F00FD7D74 /* OCKTaskControllerProtocol+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OCKTaskControllerProtocol+Extension.swift"; sourceTree = "<group>"; };
+		B0DD8D082927098F00FD7D74 /* OCKContactControllerProtocol+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OCKContactControllerProtocol+Extension.swift"; sourceTree = "<group>"; };
+		B0DD8D092927098F00FD7D74 /* SimpleTaskViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTaskViewConfiguration.swift; sourceTree = "<group>"; };
+		B0DD8D0A2927098F00FD7D74 /* DetailedContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedContactView.swift; sourceTree = "<group>"; };
+		B0DD8D0B2927098F00FD7D74 /* SimpleTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTaskView.swift; sourceTree = "<group>"; };
+		B0DD8D0D2927098F00FD7D74 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B0DD8D0E2927098F00FD7D74 /* InstructionsTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsTaskView.swift; sourceTree = "<group>"; };
+		B0DD8D0F2927098F00FD7D74 /* SimpleContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleContactView.swift; sourceTree = "<group>"; };
+		B0DD8D102927098F00FD7D74 /* InstructionsTaskViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsTaskViewConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +361,7 @@
 				5167B92123340BF9002BC69C /* View Updaters */,
 				64EABDC92321B1AF00CFBB9F /* Utilities */,
 				64EABDA62321B1AF00CFBB9F /* Extensions */,
+				B0DD8D042927098F00FD7D74 /* SwiftUI */,
 				64EABDE62321B1AF00CFBB9F /* Localization */,
 			);
 			path = iOS;
@@ -833,6 +856,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B0DD8D042927098F00FD7D74 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD8D052927098F00FD7D74 /* SimpleContactViewConfiguration.swift */,
+				B0DD8D062927098F00FD7D74 /* DetailedContactViewConfiguration.swift */,
+				B0DD8D072927098F00FD7D74 /* OCKTaskControllerProtocol+Extension.swift */,
+				B0DD8D082927098F00FD7D74 /* OCKContactControllerProtocol+Extension.swift */,
+				B0DD8D092927098F00FD7D74 /* SimpleTaskViewConfiguration.swift */,
+				B0DD8D0A2927098F00FD7D74 /* DetailedContactView.swift */,
+				B0DD8D0B2927098F00FD7D74 /* SimpleTaskView.swift */,
+				B0DD8D0C2927098F00FD7D74 /* Lists */,
+				B0DD8D0E2927098F00FD7D74 /* InstructionsTaskView.swift */,
+				B0DD8D0F2927098F00FD7D74 /* SimpleContactView.swift */,
+				B0DD8D102927098F00FD7D74 /* InstructionsTaskViewConfiguration.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		B0DD8D0C2927098F00FD7D74 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD8D0D2927098F00FD7D74 /* ListView.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1062,6 +1111,7 @@
 				510EA10D234EA381005D6793 /* OCKChecklistTaskViewSynchronizer.swift in Sources */,
 				032C86F02326B68D00D0A0EA /* Calendar+Extensions.swift in Sources */,
 				51127318235E5849007B18DF /* OCKCartesianChartViewController.swift in Sources */,
+				B0DD8D142927098F00FD7D74 /* OCKContactControllerProtocol+Extension.swift in Sources */,
 				517F3E4523345872004FE251 /* OCKCartesianChartView+Updatable.swift in Sources */,
 				5112730E235E3B12007B18DF /* OCKDetailedContactViewController.swift in Sources */,
 				51AF514E24983B86005D385F /* LabeledValueTaskView.swift in Sources */,
@@ -1072,14 +1122,18 @@
 				51EF7E48234FAB7A00B28C0A /* OCKInstructionsTaskViewSynchronizer.swift in Sources */,
 				51B1E41B2348149D00AA77D0 /* OCKContactController.swift in Sources */,
 				513E721723553E7700AC9620 /* OCKChartController.swift in Sources */,
+				B0DD8D152927098F00FD7D74 /* SimpleTaskViewConfiguration.swift in Sources */,
 				51676C0423556C27002C97E7 /* OCKWeekCalendarViewSynchronizer.swift in Sources */,
 				5167B92723341AB3002BC69C /* OCKInstructionsTaskView+Updatable.swift in Sources */,
 				51A52A0923566E5D0056150D /* OCKContactsListViewController.swift in Sources */,
 				518F3D362355317B00E00902 /* OCKDataSeriesConfiguration.swift in Sources */,
 				51127322235E58E8007B18DF /* OCKInstructionsTaskController.swift in Sources */,
 				64EABDF12321B1AF00CFBB9F /* UIViewController+Extensions.swift in Sources */,
+				B0DD8D182927098F00FD7D74 /* ListView.swift in Sources */,
 				51108C6523596BBD0029F7A2 /* OCKSynchronizationContext.swift in Sources */,
 				51127320235E58D5007B18DF /* OCKSimpleTaskController.swift in Sources */,
+				B0DD8D1A2927098F00FD7D74 /* SimpleContactView.swift in Sources */,
+				B0DD8D132927098F00FD7D74 /* OCKTaskControllerProtocol+Extension.swift in Sources */,
 				51AA2304234E687B00A90DA2 /* OCKSimpleContactViewSynchronizer.swift in Sources */,
 				64EABE002321B1AF00CFBB9F /* OCKStoreNotifications.swift in Sources */,
 				51AF515024983BE8005D385F /* OCKLabeledValueTaskController.swift in Sources */,
@@ -1088,6 +1142,7 @@
 				510A6656236147FF00074275 /* OCKAnyEvent+Extension.swift in Sources */,
 				517F3E4A23345BE9004FE251 /* OCKDetailedContactView+Updatable.swift in Sources */,
 				5112731C235E58B2007B18DF /* OCKGridTaskController.swift in Sources */,
+				B0DD8D172927098F00FD7D74 /* SimpleTaskView.swift in Sources */,
 				512BF20F2326FCDE00BF672D /* NSLayoutConstraint+Extensions.swift in Sources */,
 				516433C223539EC400999B64 /* OCKButtonLogTaskController.swift in Sources */,
 				5123901F2355573300BF2674 /* OCKTaskViewSynchronizerProtocol.swift in Sources */,
@@ -1098,7 +1153,9 @@
 				5123901B235551FA00BF2674 /* OCKChartViewSynchronizerProtocol.swift in Sources */,
 				5112731E235E58C4007B18DF /* OCKChecklistTaskController.swift in Sources */,
 				5125A215248F2E00009C9643 /* OCKTaskEvents+Extension.swift in Sources */,
+				B0DD8D112927098F00FD7D74 /* SimpleContactViewConfiguration.swift in Sources */,
 				518F3D3023552B0400E00902 /* OCKCartesianChartViewSynchronizer.swift in Sources */,
+				B0DD8D1B2927098F00FD7D74 /* InstructionsTaskViewConfiguration.swift in Sources */,
 				51127314235E3BF4007B18DF /* OCKWeekCalendarViewController.swift in Sources */,
 				64EABDF22321B1AF00CFBB9F /* OCKContact+Extensions.swift in Sources */,
 				5167B93223343CE0002BC69C /* OCKChecklistTaskView+Updatable.swift in Sources */,
@@ -1109,6 +1166,8 @@
 				51355EE824997FB8009DE0A4 /* OCKSynchronizedContactQuery.swift in Sources */,
 				64EABE022321B1AF00CFBB9F /* OCKSynchronizedStoreManager+Publishers.swift in Sources */,
 				51AF515624984ACA005D385F /* OCKOutcomeValue+Extension.swift in Sources */,
+				B0DD8D162927098F00FD7D74 /* DetailedContactView.swift in Sources */,
+				B0DD8D122927098F00FD7D74 /* DetailedContactViewConfiguration.swift in Sources */,
 				513271EF234FA33D0025810A /* OCKTaskViewController.swift in Sources */,
 				51676C0223556B34002C97E7 /* OCKCalendarViewSynchronizerProtocol.swift in Sources */,
 				5112732A235E59AA007B18DF /* OCKButtonLogViewController.swift in Sources */,
@@ -1133,6 +1192,7 @@
 				51127326235E5928007B18DF /* OCKChecklistTaskViewController.swift in Sources */,
 				5112730C235E3AE3007B18DF /* OCKSimpleContactViewController.swift in Sources */,
 				64EABDF02321B1AF00CFBB9F /* OCKDetailViewController.swift in Sources */,
+				B0DD8D192927098F00FD7D74 /* InstructionsTaskView.swift in Sources */,
 				5DD76E6F266174CC009A530B /* OCKSurveyTaskViewSynchronizer.swift in Sources */,
 				51127328235E597C007B18DF /* OCKInstructionsTaskViewController.swift in Sources */,
 				51EF7E46234FAAB700B28C0A /* OCKSimpleTaskViewSynchronizer.swift in Sources */,
